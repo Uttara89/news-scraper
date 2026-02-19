@@ -21,7 +21,7 @@ jobs:
         fetch-depth: 0  # Fetch all history for proper git operations
     
     - name: Set up Python
-      uses: actions/setup-v4
+      uses: actions/setup-python@v4
       with:
         python-version: '3.10'
     
